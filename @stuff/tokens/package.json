@@ -1,0 +1,12 @@
+{
+  "name": "@stuff/tokens",
+  "version": "0.0.0",
+  "exports": {
+    ".": {
+      "sass": "./dist/index.scss"
+    },
+    "./colors": {
+      "sass": "./dist/colors.scss"
+    }
+  }
+}

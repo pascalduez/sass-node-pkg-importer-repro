@@ -1,0 +1,11 @@
+{
+  "name": "sass-node-pkg-importer-repro",
+  "version": "0.0.0",
+  "scripts": {
+    "postinstall": "cp -R @stuff/ node_modules/."
+  },
+  "packageManager": "npm@10.4.0+sha256.0e4e5986526a578a6cdc5647cf862efba03dfcb063672f90bc525433b893fba9",
+  "devDependencies": {
+    "sass": "^1.71.1"
+  }
+}
